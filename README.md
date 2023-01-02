@@ -1,9 +1,9 @@
 # TAVD
 
-This repository contains the reference code for the paper *Tao caption： Twords Text-aware Oriented Video Captioning*
+This repository contains the reference code for the paper *Towards Text-Aware Video Captioning with Hierarchical Modal Attention.*
 
-## Tao-Caption Dataset
-Tao-Caption Dataset can be download [here](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_caption.csv).
+## E-TVCaps Dataset
+E-TVCaps Dataset can be download [here](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_caption.csv).
 
 ## Environment
 
@@ -24,14 +24,14 @@ pip install -r requirements.txt
 
 ## Prepare Data
 
-To run the code,  features for the Tao-caption dataset are needed. Please download the features file and place it in the Tao_data folder.
+To run the code,  features for the E-TVCaps dataset are needed. Please download the features file and place it in the Tao_data folder.
 
-- [Tao_resnet152.hdf5](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_resnet152.hdf5)
-- [Tao_region.hdf5](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_region.hdf5)
-- [Tao_geometry.hdf5](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_geometry.hdf5)
-- [Tao_semantic.hdf5](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_semantic.hdf5)
-- [Tao_shot.hdf5](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_shot.hdf5)
-- [Tao_ocr_vector_512.hdf5](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_ocr_vector_512.hdf5)
+- [E-TVCaps_resnet152.hdf5](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_resnet152.hdf5)
+- [E-TVCaps_region.hdf5](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_region.hdf5)
+- [E-TVCaps_geometry.hdf5](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_geometry.hdf5)
+- [E-TVCaps_semantic.hdf5](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_semantic.hdf5)
+- [E-TVCaps_shot.hdf5](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_shot.hdf5)
+- [E-TVCaps_ocr_vector_512.hdf5](https://taocaption.oss-cn-hangzhou.aliyuncs.com/TaVD_data/Tao_ocr_vector_512.hdf5)
 
 ## Evaluation
 
